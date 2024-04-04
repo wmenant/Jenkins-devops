@@ -32,7 +32,7 @@ stages {
             steps {
                     script {
                     sh '''
-                    curl localhost:8001
+                    curl http://localhost:8080/api/v1/movies/docs
                     '''
                     }
             }
